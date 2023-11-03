@@ -124,9 +124,11 @@ img {
 }
 
 .btn:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-sec);
     color: white;
     cursor: pointer;
+    font-size: 2rem;
+    transition: all .4s;
 }
 
 .btn:active {
