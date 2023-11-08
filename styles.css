@@ -135,14 +135,13 @@ img {
     background-color: var(--color-sec);
 }
 
+
 #score {
-    color: black;
+    color: var(--black);
     text-align: center;
     font-size: 2rem;
     margin-bottom: 4rem;
 }
-
-
 
 .quiz-repeat {
     text-align: center;
@@ -151,15 +150,15 @@ img {
 
 .quiz-repeat a {
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
-    background-color: orangered;
     text-decoration: none;
+    background-color: orangered;
     padding: 1rem;
     border-radius: 5px;
     transition: all .3s;
 }
 
 .quiz-repeat a:hover {
-    background-color: var(--color-primary)
+    background-color: var(--color-primary);
 }
